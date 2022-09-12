@@ -20,7 +20,7 @@
 }
 
 .jumbotron {
-    height: 70vh; 
+    height: 60vh; 
     background-image: url(/img/elijah-hiett-HetmKF31JDo-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,4 +37,8 @@
 .contact-me {
     max-width: 550px;
 }
+}
+
+.google-maps {
+    width: 100%;
 }
