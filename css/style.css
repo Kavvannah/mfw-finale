@@ -18,3 +18,27 @@
 .website-one {
     background: rgba(0, 0, 0, 0.75);
 }
+
+.jumbotron {
+    height: 60vh; 
+    background-image: url(/img/elijah-hiett-HetmKF31JDo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 450px) {
+.contact-me {
+    max-width: 550px;
+}
+}
+
+.google-maps {
+    width: 100%;
+}

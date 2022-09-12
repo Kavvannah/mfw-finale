@@ -50,11 +50,11 @@
 
 <!-- about me -->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-4 justify-content-around m-5">
-                <img src="./img/avatar-placeholder.png" alt="Savannah Ramirez pic" class="img-fluid justify-content-center" height="400px" width="300px">
+        <div class="row my-4">
+            <div class="col-6">
+                <img src="./img/avatar-placeholder.png" alt="Savannah Ramirez pic" class="mx-auto d-block" height="300px" width="300px">
             </div>
-            <div class="col-6 justify-content-around m-5">
+            <div class="col-6">
                 <h1 class="">Who am I?</h1>
                 <hr class="hr-dark" width="80px"></hr>
                 <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus nisi, pariatur nostrum mollitia sed commodi inventore? Consequuntur minima eos veniam quod voluptatum impedit ratione inventore.</p>
@@ -148,9 +148,9 @@
         <hr class="hr-dark" width="80px"></hr>
     <div class="row p-4">
         <div class="col-6">
-            <div class="card card-one my-work p-0 w-26">
+            <div class="card card-one p-0 w-26">
                 <a href="https://kavvannah.github.io/w4b-final/" target="_blank">
-                    <img src="./img/Screen Shot 2022-09-04 at 5.46.23 PM.png" class="website-one card-img-top" alt="floral shop website">
+                    <img src="./img/Screen Shot 2022-09-04 at 5.46.23 PM.png" class="website-one hover-overlay card-img-top" alt="floral shop website">
                 </a>
                 <div class="card-body text-center">
                     <h3>Html, CSS</h3>
@@ -160,7 +160,7 @@
             </div>
         </div>
         <div class="col-6">
-            <div class="card card-one my-work  p-0 w-26">
+            <div class="card card-one p-0 w-26">
                 <a href="https://kavvannah.github.io/w4b-final/" target="_blank">
                     <img src="./img/Screen Shot 2022-09-04 at 5.46.23 PM.png" class="website-one card-img-top" alt="floral shop website">
                 </a>
@@ -174,7 +174,71 @@
     </div>
 </section>
 <!-- end of my work -->
-</section>
+
+<!-- Contact Page -->
+<div class="p-5 text-center jumbotron d-flex align-items-center">
+    <div class="container-fluid py-5 d-inline justify-content-center text-light">
+        <h1 class="contact border border-white border-2 w-25 py-2">Contact Me</h1>
+    </div>
+</div>
+
+<div class="container-fluid bg-dark text-light py-5">
+    <h1 class="p-3 mb-4 text-center">Get in touch with me!</h1>
+    <p class="my-4 text-center">If you have any questions or would like to collaborate<br>
+        Do not hesitate to send me a message.</p>
+    <div class="container contact-me">
+        <form>
+            <div class="row mb-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="mb-3">
+                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+            </div>
+            <div class="mb-3">
+                <input class="form-control" id="subject" type="text" placeholder="Subject" data-sb-validations="required, subject" />
+                <div class="invalid-feedback" data-sb-feedback="subject:required">Subject is required.</div>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+            </div>
+  
+            <!-- Form submissions success message -->
+            <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">Form submission successful!</div>
+            </div>
+  
+            <!-- Form submissions error message -->
+            <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">Error sending message!</div>
+            </div>
+  
+            <!-- Form submit button -->
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- google maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204504.28568622406!2d-119.93464906593807!3d36.78545131783353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945de1549e4e9d%3A0x7b12406449a3b811!2sFresno%2C%20CA!5e0!3m2!1sen!2sus!4v1663024209569!5m2!1sen!2sus"
+        class="google-maps"
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+<!-- google map end -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
