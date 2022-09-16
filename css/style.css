@@ -1,3 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+.logo {
+    height: 150px;
+}
+
+.h1, h1, .h2, h2, .h3, h3 {
+    font-family: 'PT Serif', serif;
+}
+
+.h6, h6, .p, p {
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-jumbotron {
+    height: 60vh; 
+    background-image: url(/img/svnah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .progress {
     width: 50%;
     margin-left: auto;
@@ -19,7 +42,7 @@
     background: rgba(0, 0, 0, 0.75);
 }
 
-.jumbotron {
+.jumbotronn {
     height: 60vh; 
     background-image: url(/img/elijah-hiett-HetmKF31JDo-unsplash.jpg);
     background-repeat: no-repeat;

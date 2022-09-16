@@ -5,57 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/e2b686c75e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
     <!-- navbar -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <nav id="navbar-example2"class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a href="./index.html" class="navbar-brand">
-                    <img src="..." alt="Savannah Ramirez logo">
+                    <img src="./img/Black Elegant and Modern Beauty Salon Logo.png" alt="Savannah Ramirez logo" height="62px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto"> <!--add scrollspy when editing sections-->
+                    <ul class="navbar-nav .navbar-nav-scroll ms-auto"> <!--add scrollspy when editing sections-->
                         <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">Home</a>
+                            <a href="#home" class="nav-link active" aria-current="page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">About</a>
+                            <a href="#about" class="nav-link active" aria-current="page">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">Contact</a>
+                            <a href="#contact" class="nav-link active" aria-current="page">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
 <!-- navbar end -->
 
 <!-- Jumbotron -->
-    <div class="container-fluid bg-dark text-light py-4">
+    <div class="container-fluid text-center text-light p-0">
         <div class="bg-jumbotron p-5 mb-4 mt-3 align-items-start">
                 <h6>Hello!</h6>
                 <h1>I am Savannah Ramirez</h1>
                 <p>Web Developer</p>
-                <button class="btn btn-sm btn-light n-dark p-2 mt-4" type="button">Contact Me</button>
+                <a href="#contact"><button class="btn btn-sm btn-light n-dark p-2 mt-4" type="button">Contact Me</button></a>
             </div>
     </div>
 <!-- jumbotron end -->
 
 <!-- about me -->
-    <div class="container-fluid">
+    <div id="about" class="container-fluid">
         <div class="row my-4">
             <div class="col-6">
-                <img src="./img/avatar-placeholder.png" alt="Savannah Ramirez pic" class="mx-auto d-block" height="300px" width="300px">
+                <img src="./img/0BCE8F26-336B-4030-88FF-5582275879AD.jpg" alt="Savannah Ramirez pic" class="mx-auto d-block" height="300px" width="300px">
             </div>
             <div class="col-6">
-                <h1 class="">Who am I?</h1>
+                <h1 id="scrollspyHeading2">Who am I?</h1>
                 <hr class="hr-dark" width="80px"></hr>
                 <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus nisi, pariatur nostrum mollitia sed commodi inventore? Consequuntur minima eos veniam quod voluptatum impedit ratione inventore.</p>
             </div>
@@ -76,7 +75,7 @@
                         <h5 class="card-title">Github Version Control</h5>
                     </div>
                     <div class="progress mt-3">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-75" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-75" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>
@@ -88,7 +87,7 @@
                         <h5 class="card-title">Html5</h5>
                     </div>
                     <div class="progress mt-3">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-75" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-75" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>
@@ -99,7 +98,7 @@
                         <h5 class="card-title">CSS</h5>
                     </div>
                     <div class="progress mt-3">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-75" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-75" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>
@@ -110,7 +109,7 @@
                         <h5 class="card-title">Bootstrap</h5>
                     </div>
                     <div class="progress mt-3">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-75" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-75" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>
@@ -131,7 +130,7 @@
                                 <h5 class="card-title">Javascript</h5>
                             </div>
                             <div class="progress mt-3">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-25" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark w-25" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -159,30 +158,18 @@
                 </div>
             </div>
         </div>
-        <div class="col-6">
-            <div class="card card-one p-0 w-26">
-                <a href="https://kavvannah.github.io/w4b-final/" target="_blank">
-                    <img src="./img/Screen Shot 2022-09-04 at 5.46.23 PM.png" class="website-one card-img-top" alt="floral shop website">
-                </a>
-                <div class="card-body text-center">
-                    <h3>Html, CSS, Bootstrap v5.2</h3>
-                    <a href="https://github.com/Kavvannah/w4b-final"><h4>Github Repository</h4></a>
-                    <p class="card-text">My second website using Html, and CSS while learning Bootstrap v5.2. This website is fully responsive and a side project for learning and implementing Bootstrap v5.2.</p>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <!-- end of my work -->
 
 <!-- Contact Page -->
-<div class="p-5 text-center jumbotron d-flex align-items-center">
+<div class="p-5 text-center jumbotronn d-flex align-items-center">
     <div class="container-fluid py-5 d-inline justify-content-center text-light">
-        <h1 class="contact border border-white border-2 w-25 py-2">Contact Me</h1>
+        <h1 id="scrollspyHeading3" class="contact border border-white border-2 w-25 py-2">Contact Me</h1>
     </div>
 </div>
 
-<div class="container-fluid bg-dark text-light py-5">
+<div id="contact" class="container-fluid bg-dark text-light py-5">
     <h1 class="p-3 mb-4 text-center">Get in touch with me!</h1>
     <p class="my-4 text-center">If you have any questions or would like to collaborate<br>
         Do not hesitate to send me a message.</p>
@@ -222,10 +209,10 @@
   
             <!-- Form submit button -->
             <div class="d-grid">
-                <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
+                <button class="btn btn-light btn-lg" id="submitButton" type="submit">Submit</button>
             </div>
         </form>
-        <h2 class="text-center mt-3 pt-3">Connect with us !</h2>
+        <h2 class="text-center mt-3 pt-3">Connect with me !</h2>
         <ul class="nav col-md-3 pt-3 mx-auto list-unstyled">
             <li class="ms-4 ">
                 <a href="#" class="text-light">
@@ -258,27 +245,28 @@
 <!-- google map end -->
 
 <!-- footer -->
-<footer class=" d-flex flex-wrap justify-content-between align-items-center py-4 my-3 border-top">
-    <ul class="nav col-4 justify-content-start">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-3 border-top">
+    
+    <ul class="nav col-3 justify-content-start">
+        <a href="./index.html" class="navbar-brand">
+            <img src="./img/Black Elegant and Modern Beauty Salon Logo.png" alt="Savannah Ramirez logo" height="25px">
+        </a>
         <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-dark">Home</a>
+            <a href="#home" class="nav-link px-2 text-dark">Home</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-dark">About</a>
+            <a href="#about" class="nav-link px-2 text-dark">About</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-dark">Contact</a>
+            <a href="#contact" class="nav-link px-2 text-dark">Contact</a>
         </li>
     </ul>
 
-    <div class="col-4 d-flex align-items-center justify-content-center mb-3 mb-md-auto me-md-auto">
-        <a href="#" class="link-dark text-decoration-none">
-            <!-- Logo goes here -->
-        </a>
+    <div class="col-4 d-flex align-items-center justify-content-center mb-3">
         <p class="text-muted">&copy;2022 Copyright: Savannah Ramirez</p>
     </div>
 
-    <ul class="nav col-md-4 d-flex justify-content-end list-unstyled">
+    <ul class="nav col-md-3 d-flex justify-content-end list-unstyled">
         <li class="ms-3 ">
             <a href="#" class="text-dark">
                 <i class="fa-brands fa-linkedin"></i>
