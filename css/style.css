@@ -15,7 +15,7 @@ html {
 
 .bg-jumbotron {
     height: 60vh; 
-    background-image: url(/img/svnah.jpg);
+    background-image: url(./img/svnah.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,7 +44,7 @@ html {
 
 .jumbotronn {
     height: 60vh; 
-    background-image: url(/img/elijah-hiett-HetmKF31JDo-unsplash.jpg);
+    background-image: url(./img/elijah-hiett-HetmKF31JDo-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
